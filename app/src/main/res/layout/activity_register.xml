@@ -1,0 +1,84 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mybackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:drawableLeft="@drawable/name"
+        android:hint="Enter name"
+        android:id="@+id/regname"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/address"
+        android:hint="Enter address"
+        android:id="@+id/add"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/phonenum"
+        android:hint="Enter phone number"
+        android:id="@+id/phnum"
+        android:layout_margin="5dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/mail"
+        android:hint="Enter the Email"
+        android:id="@+id/email"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/username"
+        android:hint="Enter Username"
+        android:id="@+id/username"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/password"
+        android:hint="Enter the password"
+        android:id="@+id/password"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/conform"
+
+        android:hint="Confirm the password"
+        android:id="@+id/cpassword"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<androidx.appcompat.widget.AppCompatButton
+ android:text="REGISTER"
+   android:layout_margin="10dp"
+    android:id="@+id/reg"
+    android:textColor="#030F10"
+    android:background="@drawable/buttonstyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:text="GO TO LOGIN"
+      android:layout_margin="10dp"
+      android:id="@+id/gotologin"
+      android:textColor="#030F10"
+      android:background="@drawable/buttonstyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+</LinearLayout>
